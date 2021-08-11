@@ -1,0 +1,112 @@
+
+{
+  "root_dirs": [
+    "/mnt/dms/keypoints/0_raw_data/sports/basketball/Basketball_1",
+    "/mnt/dms/keypoints/0_raw_data/sports/basketball/Basketball_2",
+    "/mnt/dms/keypoints/0_raw_data/sports/basketball/Basketball_3",
+    "/mnt/dms/keypoints/0_raw_data/sports/basketball/Basketball_4",
+    "/mnt/dms/keypoints/0_raw_data/sports/basketball/Basketball_5",
+    "/mnt/dms/keypoints/0_raw_data/sports/football/football_1",
+    "/mnt/dms/keypoints/0_raw_data/sports/football/football_2",
+    "/mnt/dms/keypoints/0_raw_data/sports/football/football_3",
+    "/mnt/dms/keypoints/0_raw_data/sports/golf/Golf_1",
+    "/mnt/dms/keypoints/0_raw_data/sports/golf/Golf_2",
+    "/mnt/dms/keypoints/0_raw_data/sports/golf/Golf_3",
+    "/mnt/dms/keypoints/0_raw_data/sports/golf/Golf_4",
+    "/mnt/dms/keypoints/0_raw_data/sports/golf/Golf_5"
+  ],
+  "target_dir": "/mnt/aistudionas/dms/keypoints/1_inspected_data/sports/whole",
+  "split_ratio": 0.9,
+  "sports": [
+    {
+      "id": 1,
+      "keypoints": [
+          "head",
+          "uvula",
+          "throax",
+          "left_shoulder", "right_shoulder",
+          "left_elbow", "right_elbow",
+          "left_wrist", "right_wrist",
+          "pelvis",
+          "right_hip", "left_hip",
+          "right_knee", "left_knee",
+          "right_ankle", "left_ankle"
+      ],
+      "name": "person",
+      "skeleton": [
+          [0,1], [1,2],
+          [2,3], [2,4], [3,5],
+          [4,6], [5,7], [6,8],
+          [2,9],
+          [9,11], [9, 10], [11,13],
+          [10,12], [13,15], [12,14]]
+      ,
+      "supercategory": "person",
+      "colors": [
+        [102, 204, 255], [51, 153, 255],
+        [255, 128, 0], [153, 255, 204], [128, 229, 255],
+        [153, 255, 153], [102, 255, 224], [255, 102, 0],
+        [255, 102, 0],
+        [255, 255, 77], [153, 255, 204], [191, 255, 128],
+        [255, 195, 77], [0, 102, 255], [102, 0, 255]
+      ]
+    }
+  ],
+  "golf": [
+    {
+      "id": 1,
+      "keypoints": [
+        "nose",
+        "right_eye", "left_eye",
+        "right_ear", "left_ear",
+        "throax",
+        "right_shoulder", "left_shoulder",
+        "right_elbow", "left_elbow",
+        "right_wrist", "left_wrist",
+        "pelvis",
+        "right_hip", "left_hip",
+        "right_knee", "left_knee",
+        "right_ankle", "left_ankle",
+        "right_heel", "left_heel", "right_big_toe", "left_big_toe", "right_little_toe", "left_little_toe"
+      ],
+      "name": "person",
+      "skeleton": [
+        [0,1], [1,3], [0,2], [2,4],
+        [0,5],
+        [5,7], [7,9], [9,11], [5,6], [6,8], [8,10],
+        [5,12],
+        [12,14], [14,16], [16,18], [18,22], [18,24], [18,20],
+        [12,13], [13,15], [15,17], [17,21], [17,23], [17,19]
+      ],
+      "supercategory": "person"
+    }
+  ],
+  "football": [
+                {
+                    "id": 1,
+                    "keypoints": [
+                        "head",
+                        "uvula",
+                        "throax",
+                        "left_shoulder", "right_shoulder",
+                        "left_elbow", "right_elbow",
+                        "left_wrist", "right_wrist",
+                        "pelvis",
+                        "right_hip", "left_hip",
+                        "right_knee", "left_knee",
+                        "right_ankle", "left_ankle"
+                    ],
+                    "name": "person",
+                    "skeleton": [
+                        [0,1], [1,2],
+                        [2,3], [2,4], [3,5],
+                        [4,6], [5,7], [6,8],
+                        [2,9],
+                        [9,11], [9, 10], [11,13],
+                        [10,12], [13,15], [12,14]]
+                    ,
+                    "supercategory": "person"
+                }
+  ]
+
+}
